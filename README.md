@@ -16,7 +16,7 @@ freeShiping : "false",
 2.
 <script type="text/javascript">
 function validasi_input(form){
-   pola_username=/^[a-z]{5,100}$+_.[A-Z]{2,100}/;
+   pola_username=/^[a-z]{5}$+_.[A-Z]{2}$/;
    if (!pola_username.test(form.username.value)){
       alert ('Salah');
       form.username.focus();
@@ -60,3 +60,5 @@ int main() {
     cout<<j<<endl;
         return 0;
 }
+
+
